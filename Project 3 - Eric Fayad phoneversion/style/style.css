@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+
+
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: black;
+
+  /* background-color: #f3ca95; */
+  
+
+}
+
+/* 
+#chart {
+
+
+  position: relative;
+  background-image: url('/images/Mouse.gif');
+background-repeat: no-repeat; 
+background-attachment: fixed;
+background-size: 10% 10%; 
+background-position:50% 13%;
+visibility: visible;
+}
+ */
+
+
+
+
+
+h1  {
+  /* margin-left:25%; */
+  /* text-align: center; */
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40pt;
+  /* color: rgb(48, 46, 46); */
+  color:lightgrey;
+  /* background-color: #f3ca95; */
+  /* text-align: center;  */
+  margin-left:10.3%;
+  
+}
+
+h2  {
+  /* margin-left:25%; */
+  /* text-align: center; */
+  
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10pt;
+  /* color: rgb(48, 46, 46); */
+  color:lightgrey;
+  /* background-color: #f3ca95; */
+  text-align: left; 
+  width :50%;
+  margin-left:10.3%;
+
+  
+}
+
+
+text  {
+  
+
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+  /* background-color: #f3ca95; */
+  
+
+}
+
+
+
+ #p1 , h3{
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10pt;
+  /* color: rgb(48, 46, 46); */
+  color:lightgrey;
+  /* width: 50%; */
+  width :33.3%;
+  margin-left:33.3%;
+  
+  /* background-color: #f3ca95; */
+  margin-left:10.3%;
+  
+
+}
+
+
+.tooltip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30pt;
+  color: rgb(48, 46, 46);
+  background-color: #f3ca95;
+  padding: 11px;
+  border-radius: 23px;
+  line-height: 100px;
+  pointer-events: none;
+    text-align: center;
+
+    
+  background-image: url('/images/Horse.gif');
+  background-repeat: no-repeat; /*  or no-repeat   */
+  background-attachment: fixed;
+  background-size: 10% 10%; 
+  background-position:10px 10px ;
+
+}
+
+    
+
+
+
+/* @keyframes pulse-red {
+	0% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+} */
+
+
+
+#Cheetah {
+
+  animation: mymove 0.34s infinite;
+}
+
+
+#Horse {
+
+animation: mymove 0.333s infinite;
+}
+
+
+#Lion {
+
+animation: mymove 0.789s infinite;
+}
+
+#Greyhound {
+
+animation: mymove 0.666s infinite;
+}
+
+#Grizzly {
+
+animation: mymove 0.666s infinite;
+}
+
+
+#Cat {
+
+animation: mymove 0.2727s infinite;
+}
+
+#Rabbit {
+
+animation: mymove 0.2s infinite;
+}
+
+#Squirrel {
+
+animation: mymove 0.142s infinite;
+}
+
+
+#Mouse {
+
+animation: mymove 0.08s infinite;
+}
+
+
+#Tortoise {
+
+animation: mymove 10s infinite;
+}
+
+
+@keyframes mymove {
+  50%{ r:25px}
+  90% {r: 27px;}
+}
+
